@@ -37,7 +37,7 @@
         
     APP_NAME=App Name
     APP_URL=https://domain.app/
-#### Agregar
+#### Add
 
     APP_NAME_WA=name
     APP_SN_WA=short_name
