@@ -544,13 +544,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/edwinylil1/laravelWebApp.git",
-                "reference": "d08a33aa17c6b4dc31fde20937ea23ad9fad29ac"
+                "reference": "db77bcbb3d9b1a06751b10da616700ba4bf773fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edwinylil1/laravelWebApp/zipball/d08a33aa17c6b4dc31fde20937ea23ad9fad29ac",
-                "reference": "d08a33aa17c6b4dc31fde20937ea23ad9fad29ac",
+                "url": "https://api.github.com/repos/edwinylil1/laravelWebApp/zipball/db77bcbb3d9b1a06751b10da616700ba4bf773fb",
+                "reference": "db77bcbb3d9b1a06751b10da616700ba4bf773fb",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5"
             },
             "type": "library",
             "extra": {
@@ -572,7 +575,8 @@
             "authors": [
                 {
                     "name": "Edwin J. Villegas M.",
-                    "email": "devvillegas@proton.me"
+                    "email": "devvillegas@proton.me",
+                    "role": "Developer"
                 }
             ],
             "description": "Designed to provide an experience similar to a mobile or desktop application.",
@@ -586,7 +590,7 @@
                 "issues": "https://github.com/edwinylil1/laravelWebApp/issues",
                 "source": "https://github.com/edwinylil1/laravelWebApp/tree/1.0.0"
             },
-            "time": "2024-02-19T04:23:51+00:00"
+            "time": "2024-02-19T21:12:28+00:00"
         },
         {
             "name": "egulias/email-validator",
