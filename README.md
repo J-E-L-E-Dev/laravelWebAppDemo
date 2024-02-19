@@ -1,63 +1,62 @@
-# EJEMPLO DE LARAVEL WEB APP
+# LARAVEL WEB APP EXAMPLE
 
-## Clonar
+## Clone
 
     cd /path
     
-    git clone git@github.com:ruta.git path.app.lan
+    git clone git@github.com:path.git path.app.lan
             
-## Ingresar en carpeta
+## Enter folder
         
-    cd miweb.lan
+    cd my-web.lan
         
-## Para instalar
+## For install
 
     composer install
     npm install
 
-### Crear archivo de entorno
+### Create environment file
 
 	cp .env.example  .env
 
-### ver que se creo
+### see what was created
 
 	cat .env
 
-### Generar clave 
+### Generate key
 
 	php artisan key:generate
 
-### Crear enlace a la carpeta de recursos
+### Create link to resources folder
 
 	php artisan storage:link
                 
-# Actualizar datos del archivo .env
+# Update .env file data
 
     nano .env
         
-    APP_NAME=NombreApp
-    APP_URL=https://midominio.app/
-    QUEUE_CONNECTION=database  // para activar las colas en la base de datos
+    APP_NAME=App Name
+    APP_URL=https://domain.app/
 #### Agregar
 
-    APP_NAME_WA=nombre
-    APP_SN_WA=nombre_corto
-    APP_DESCRIPTION_WA=info_de_mi_web_app
+    APP_NAME_WA=name
+    APP_SN_WA=short_name
+    APP_DESCRIPTION_WA=info_about_my_web_app
 
          
-##### Reemplazar en el .env, los nombres de las bases de datos a usar, usuario y contraseña para correr las migraciones
+##### Replace in the .env, the names of the databases to use, username and password to run the migrations
     
     nano .env
        
-##### Ejecutar las migraciones
+##### Run the migrations
        
     php artisan migrate
     
-## Traer los cambios del repositorio en GIT HUB a GIT main puede ser cambiado por un branch especifico
+## Bringing changes from the GIT HUB repository to GIT main can be changed by a specific branch
 
     git pull origin main
         
-## Para correr el servidor local
+## To run the local server
 
     php artisan serve
     npm run dev
